@@ -56,7 +56,7 @@ if (file_exists('books.json')) {
         ?>
         <form method="post" class="index_search_div_inner">
             <input class="search_box" id="search_input" name="search" type="search" placeholder="Seach.......">
-            <input class="create_btn" type="submit" value="submit" name="submit">
+            <input class="create_btn" type="submit" value="Search" name="submit">
         </form>
         <!-- <button onclick="search()">CLICK</button> -->
         <!-- <div class="index_search_div_inner">      
