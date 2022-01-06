@@ -84,7 +84,7 @@ if (file_exists('books.json')) {
                 <td><?php echo $value['pages'] ?></td>
                 <td><?php echo $value['isbn'] ?></td>
                 <td>
-                    <a type='button' class='btn btn-danger' href="<?php echo $BASE_URL . '/' . '/delete.php?id=' . $value['id']; ?>">Delete</a>
+                    <a type='button' class='btn btn-danger' href="<?php echo $BASE_URL . '/' . 'delete.php?id=' . $value['id']; ?>">Delete</a>
                 </td>
             </tr>
         <?php endforeach ?>
