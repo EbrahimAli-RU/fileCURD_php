@@ -37,7 +37,7 @@ if (file_exists('books.json')) {
 </head>
 
 <body>
-
+    <h1 style="text-align: center;margin-top: 5rem;">File Based CURD Application</h1>
     <div class="index_search_div">
         <a href="/create.php" class="create_btn">Create</a>
         <?php
